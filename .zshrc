@@ -102,3 +102,5 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim="nvim"
 alias nano="nvim"
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
