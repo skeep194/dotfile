@@ -1,1 +1,11 @@
-/usr/bin/trace-on
+#!/usr/bin/zsh
+ORIGIN=$PATH
+CUR=$(date "+%Y-%m-%d %H:%M:%S")
+
+cd /home/skeep194
+yadm add -u
+yadm commit -m "$CUR"
+yadm push
+
+
+cd $ORIGIN
